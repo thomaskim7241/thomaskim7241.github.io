@@ -1,0 +1,24 @@
+---
+title: "My Capstone Project for Substance Abuse in Socioeconomic Climate"
+description: "This is my summer 2025 Capstone project"
+date: "July 2025"
+resources: "."
+about: 
+  template: solana
+  image: cover.jpg
+  links: 
+    - icon: github
+      text: "GitHub"
+      href: "https://github.com/thomaskim7241/SURE2025.git"
+    - icon: easel2
+      text: "Slides"
+      href: "https://github.com/joannjun/cmueda"
+    - icon: file-code
+      text: "Report"
+      href: "https://github.com/joannjun/cmueda"
+    
+---
+
+This is my capstone project...
+
+wdawd...
