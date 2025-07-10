@@ -1,0 +1,15 @@
+---
+title: "Thomas Kim"
+about:
+  template: jolla
+  image: Assets/Headshot.png
+  links:
+    - icon: inbox
+      text: Email
+      href: mailto:thomaskim7241@gmail.com
+    - icon: hand-thumbs-up
+      text: Handshake
+      href: https://app.joinhandshake.com/profiles/cznmth
+---
+
+Welcome! I’m a rising senior at the Carlson School of Management, studying Business Analytics, MIS, and Supply Chain & Operations. This site is a place to share my work, interests, and journey as I continue to grow in the world of business and technology.

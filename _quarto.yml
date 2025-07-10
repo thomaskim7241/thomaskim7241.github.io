@@ -1,0 +1,35 @@
+project:
+  type: website
+  resources: Assets
+
+website:
+  title: "Thomas Kim"
+  navbar:
+    background: "#E6BE8A"
+    left:
+      - href: index.qmd
+        text: About Me
+      - href: projects.qmd
+        text: Project
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/thomas-kim-csom/
+        target: blank
+      - icon: cash
+        href: https://account.venmo.com/u/Thomas-Kim-269
+      - icon: github
+        href: https://github.com/thomaskim7241
+      - icon: file-dash
+        href: Assets/Resume.pdf
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.cssq
+    toc: true
+
+execute: 
+  freeze: auto
+
