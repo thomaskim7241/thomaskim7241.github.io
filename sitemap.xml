@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://thomaskim7241.github.io/projects/eda/eda.html</loc>
-    <lastmod>2025-07-10T15:21:39.098Z</lastmod>
-  </url>
-  <url>
     <loc>https://thomaskim7241.github.io/projects.html</loc>
-    <lastmod>2025-07-10T15:21:39.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomaskim7241.github.io/index.html</loc>
-    <lastmod>2025-07-10T15:21:39.093Z</lastmod>
+    <lastmod>2025-07-29T23:45:23.644Z</lastmod>
   </url>
   <url>
     <loc>https://thomaskim7241.github.io/projects/capstone/capstone.html</loc>
-    <lastmod>2025-07-10T15:21:39.095Z</lastmod>
+    <lastmod>2025-07-29T23:45:23.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomaskim7241.github.io/index.html</loc>
+    <lastmod>2025-07-29T23:45:23.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomaskim7241.github.io/projects/eda/eda.html</loc>
+    <lastmod>2025-07-29T23:45:23.648Z</lastmod>
   </url>
 </urlset>
