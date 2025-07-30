@@ -8,19 +8,7 @@ format:
     transition: slide
     embed-resources: true
 output: revealjs::revealjs_presentation
-    
 ---
-
-## Data {.scrollable}
-
-- 12 columns
-- Aggregated by `State`, `PriorBirthsNowDeceased`, `TobaccoUse`, `PrePregnancyDiabetes`, `PrePregnancyHypertension`
-- `Births`
-- `AverageMotherAge`
-- `AverageBirthWeight`
-- `AveragePrePregnancyBMI`
-- `AverageNumberPrenatalVisits`
-- `AverageIntervalSinceLastBirth`
 
 ## Questions
 

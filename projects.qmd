@@ -7,5 +7,3 @@ listing:
     - "date"
     - "title desc"
 ---
-
-
