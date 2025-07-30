@@ -1,6 +1,10 @@
 project:
   type: website
-  resources: Assets
+  output-dir: _site
+  resources:
+    - Assets
+    - slides/eda_pres.html
+  
 
 website:
   title: "Thomas Kim"
