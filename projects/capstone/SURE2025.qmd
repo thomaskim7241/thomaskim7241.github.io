@@ -1,0 +1,159 @@
+---
+title: "Title"
+author:
+  - Thomas Kim
+  - Becky Zhou
+  - Georgina Mbonu
+date: "July 25, 2025"
+toc: true
+format:
+  html:
+    theme: cosmo
+    html-math-method: katex
+    embed-resources: true
+    self-contained: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+---
+
+## Introduction 
+
+The US is encountering a growing epidemic of substance abuse. In 2022, ten times more people died due to drug overdose compared to the number in 1999. Between those times, 727,000 people lost their lives to opioid overdoses. In 2023, around 217 people died per day due to opioid overdose. By the same year, 16.7% of people aged 12 and older report substance abuse disorders in the last year. 
+
+These statistics highlight the growing scale and urgency of substance abuse. As a healthcare organization committed to customer wellness and preventive care, UHG has both a responsibility and opportunity to understand the underlying causes of substance related illness and death. Through data analysis, we can identify and address socioeconomic and demographic  predictors of substance abuse. These can proactively inform the public of threats, improving patient outcomes, and lowering healthcare costs overall.
+
+#### **Research Question:** 
+Are there demographic and social factors that are predictors of substance abuse outcomes?
+
+#### **Hypothesis:** 
+Substance abuse outcomes are not random but are systematically influenced by demographic and social conditions, such as race, income, rural residence, and lack of healthcare access.
+
+## Data
+
+The data was sourced from the 2025 County Health Rankings dataset, collected and published by the University of Wisconsin Population Health Institute. The data includes information at the country, state, and county level along with the District of Columbia. The type of data includes location, population bases, health outcomes, and environmental factors which may contribute to overall health standing.
+
+For this report we focused on socioeconomic and demographic factors which may correlate with drug overdose, alcohol-impaired driving death, excessive drinking, and overall substance abuse. We primarily found these variables were important in our research.
+
+#### **Predictor Variables:**
+
+The following predictors were chosen through modeling and post-modeling intuition and reasoning:
+
+* % AI/AN (American Indian or Alaska Native): The percentage of population identifying as American Indian or Alaska Native. Data was sourced from 2023
+
+* % Disability (Functional Limitations): The percentage of adults who report any of six specific functional limits. Data was sourced from 2022
+
+* % Female: The percentage of the population identifying as female. Data was sourced from 2023
+
+* Mental Health Providers: The ratio of population to mental health providers. Data was sourced from 2024
+
+* Uninsured Children: The percentage of children under age 19 without health insurance. Data was sourced from 2022
+
+#### **Response Variables:**
+
+The following were chosen through intuition which represent substance abuse outcomes:
+
+* Drug Overdose Deaths: The number of drug poisoning deaths per 100,000 population. Data was sourced from 2020-2022 data
+
+* Alcohol-Impaired Driving Deaths: The percentage of driving deaths with alcohol involvement. Data was sourced from 2018-2022
+
+* Excessive Drinking: The number of adults reporting binge or heavy drinking(age-adjusted). This data was sourced from 2022
+
+## EDA
+
+![State Level DOD](images/DOD.png)
+
+This choropleth map puts a spotlight on West Virginia as a hot spot for drug overdose. The east side of the US and southwest seem to contain higher proportions of drug overdose death. The western and midwest part of the US has the lowest DOD overall. 
+![State Level ADD](images/ADD.png)
+
+This choropleth highlights Montana as a hot spot for alcohol-impaired driving death. Northern and mountainous regions observe the highest rates, the west coast seems to have elevated rates of AIDD as well. It seems the southeast and some northeastern states how comparatively lower rates indicating possible geographic, infrastructural, and cultural differences around alcohol-impaired driving.
+![DOD vs Poor Mental Health Days & Income(quartiles)](images/eda.png)
+
+This model captures the relationship between he average number of poor mental health days and DOD highlighting the difference in income level in quartiles. Higher income levels experience less poor mental health days and less DOD and as income levels decrease, both poor mental health days and DOD increase. The tailend of income seems to have much worse outcomes on avearge.
+
+## Methods
+
+To meet the assumptions of a linear model, specifically, homoscedasticity and normally distributed residuals, we applied a logit transformation to the outcome variables. This helped to stabilize variance and improve the linear relationship between the predictors and the outcomes. We used many predictors while filtering for multicollinearity in order to capture the most possible relationships while giving each variable a fair shot at capturing true relationships.
+
+#### **Linear Regression:**
+We began with a multiple linear regression to examine associations between overdose deaths and a range of demographic and social predictors. We chose multiple linear regression first because of simplicity, interpretability, and ability to quantify relationships. 
+
+#### **Huber Regression:**
+The initial results of the linear regression revealed the presence of outliers and influential data points. In order to account for the outliers, we switched to using a more robust huber linear model which reduces the influence of extreme values while preserving efficiency. We used Cook’s distance to ensure the outliers were not unjustly biasing the model. This approach allowed us to maintain model interpretability and mitigate the effects of counties with unusually high or low rates due to unmeasured local factors. 
+
+#### **Random Forest:**
+To look further into the data, we used a random forest model to capture nonlinear relationships and variable importance. This provided a flexible non-parametric alternative and confirmed the key predictors identified in the robust linear model. 
+
+#### **Data Cleaning:**
+To capture a relationship with the real data, we considered using random forests or state means to impute missing values into data. After deliberation, we decided to remove missing values from the response variables to ensure we capture real relationships rather than heuristically correct information. Next, we removed predictors with more than 10% missingness and imputed with both the state means and random forests. Using RMSE we decided that because the results were similar in both while modeling, we would use state means following the ideology of Occams Razor. 
+
+## Results
+
+We present the results of the Huber robust linear models and random forest models for each other with the following outcomes: drug overdose deaths, alcohol-impaired driving deaths, and excessive drinking. While rurality itself was not a strong predictor of substance-related harms, several structural factors commonly found in rural and underserved areas were consistently associated with worse outcomes. Below we highlight the five most influential predictors for each outcome based on t-value outcome and significance.
+
+![Random Forest Predictor Importance](images/DODIMP.png)
+
+#### **Drug Overdose Deaths:**
+
+Counties with higher percentages of people living with disabilities had significantly higher drug overdose death rates. Similarly, places with more women and more mental health providers also saw elevated overdose levels. Counties with more American Indian or Alaska Native (AI/AN) residents had slightly higher rates. Interestingly, counties with greater access to mental health providers also had higher overdose rates. This may reflect a pattern where providers are more concentrated in wealthier areas with more resources to report and respond to overdoses, rather than indicating that providers themselves are a risk factor. Conversely, counties with higher rates of uninsured children reported fewer overdose deaths, which could be explained by the fact that overdose tends to affect adults more than children.
+
+![Huber Model Coefficients(Logit)](images/Coef.jpg)
+
+#### **Alcohol-Impaired Driving Deaths:**
+
+Rates of alcohol-impaired driving deaths were highest in counties with larger AI/AN populations and more uninsured children. However, higher disability rates were linked to fewer deaths. Female representation showed a weak negative association, and the availability of mental health providers was linked with increased deaths possibly reflecting more infrastructure in wealthier areas rather than a direct relationship.
+![Huber Model for t-value](images/ED.png)
+
+#### **Excessive Drinking:**
+
+Excessive drinking was most common in counties with higher percentages of AI/AN residents and more uninsured children. In contrast, counties with more people who have disabilities or a higher proportion of women tended to have lower excessive drinking rates. The relationship between mental health provider availability and drinking was weaker in this model, but provider presence still offers important context that areas with more providers may be better equipped to recognize and document problematic drinking behaviors, leading to higher reported rates.
+
+![Coefficient Heat Map](images/Heat.png)
+
+#### **Predictor Variables & Rurality:**
+
+Across all three outcomes, disability prevalence, female population, AI/AN representation, uninsured children, and mental health provider availability were consistently influential. Although rurality itself may not drive substance abuse outcomes, many traits that commonly characterize rural or underserved areas such as high disability rates, limited child insurance coverage, and uneven access to care do. These findings highlight the importance of addressing structural inequities, particularly in regions where risk factors concentrate but reporting and intervention resources may fall short.
+
+## Recommendations
+
+We recommend increasing **culturally competent care**, especially for Native American communities, because they consistently show the highest rates across all substance-related outcomes in our data. Making care more culturally responsive can help build trust and improve access to treatment in these high-risk groups.
+
+#### **Opioids & Women in Substance Abuse:**
+
+We also suggest prioritizing **non-opioid treatments** for pain management. Since disability is the strongest predictor of overdose deaths, providing safer pain management options such as physical therapy or behavioral therapy can reduce reliance on opioids and lower overdose risk. Along with that, safer prescribing practices and strengthening prescription drug monitoring programs to help prevent overprescribing and catch early signs of misuse.  Our data shows that being female is a protective factor when it comes to excessive drinking and alcohol-impaired driving because women tend to engage in these risky behaviors less often than men. However, women are more at risk for drug overdose, likely due to biological and prescribing differences. For example, women are more likely to be diagnosed with chronic pain conditions like fibromyalgia and are often prescribed opioids, which can lead to faster dependency. These patterns highlight the need for **gender-specific strategies**: promoting safe prescribing for women and addressing alcohol misuse more directly in men.
+
+#### **Rurality & Mental Health Providers in Substance Abuse:**
+
+Lastly, we recommend expanding access to care in rural areas. Our data indicates that a lack of insurance—particularly among children is a strong predictor of excessive drinking, suggesting that limited access to care contributes to substance-related harms. Excessive drinking was especially prevalent in counties with higher percentages of American Indian/Alaska Native (AI/AN) residents and more uninsured children, highlighting the role of structural inequities. In contrast, counties with more people with disabilities or a higher proportion of women showed lower rates of excessive drinking.
+
+Although mental health provider availability was only weakly associated with drinking in our model, areas with more providers also reported higher rates of drug overdose and excessive drinking. This may reflect better detection and documentation in areas with stronger healthcare infrastructure, rather than higher actual prevalence. **These findings underscore the need to improve access to care in underserved areas—not only to provide treatment, but also to ensure early identification and intervention.**
+
+
+## Discussion
+
+**Although rurality itself is not a strong direct predictor of substance-related harms, many structural conditions common in rural and underserved areas**—like poverty, lack of healthcare access, higher disability rates, and chronic illness—are strongly linked to worse outcomes in drug overdose, alcohol-impaired driving, and excessive drinking. These findings suggest that it's not living in a rural area that increases risk, but rather the social and economic challenges that often come with it. Addressing these root causes is essential for reducing substance-related harms in these communities.
+
+## Limitations
+
+This analysis has a few limitations that should be considered while interpreting the results.
+
+First, **missing data** on race, ethnicity, and the response variables can bias results and diminish disparities among specific demographics such as American Indians and Alaska Native populations. Additionally, some substance abuse measurements require self-reporting which often leads to underreporting due to recall bias and stigmas leading to possibly underestimating total harm.
+
+Next, data quality and **coverage in rural areas** are concerning. The response variables drug overdose deaths was missing many values within the center of the United States often in rural, unaccounted for areas. These places lack healthcare access because of missing infrastructure which can limit analysis accuracy. Because of this, communities high at risk may be overlooked.
+
+Lastly, the **analysis is only observational** which means we can only make inferences based on cold data. This misses the mechanisms behind predictor and outcome variables leading to correlation based claims over causal relationships. Many of the predictor variables are also interrelated meaning it's extremely hard to isolate individual effects of predictors on the outcomes. 
+
+Altogether, these limitations show the need for cautious interpretations of the data and the need for further causal-based research.
+
+## References
+
+American Addiction Centers. (2025, March 31). *Addiction statistics & demographics*. American Addiction Centers. Retrieved from https://americanaddictioncenters.org/rehab-guide/addiction-statistics-demographics. Accessed July 23, 2025.
+
+Centers for Disease Control and Prevention. (2024, January 23). *Overdose prevention strategies*. U.S. Department of Health & Human Services. Retrieved from https://www.cdc.gov/overdose-prevention/prevention/index.html. Accessed July 23, 2025.
+
+Hoffman, K. L., Milazzo, F., Williams, N. T., Samples, H., Olfson, M., Diaz, I., … Rudolph, K. E. (2024). Independent and joint contributions of physical disability and chronic pain to incident opioid use disorder and opioid overdose among Medicaid patients. Psychological Medicine, 54(7), 1419–1430. doi:10.1017/S003329172300332X.
+
+Jones AA, Segel JE, Skogseth EM, Apsley HB, Santos-Lozada AR. Drug overdose deaths among women 1999-2021 in the United States: Differences by race, ethnicity, and age. Womens Health (Lond). 2024 Jan-Dec;20:17455057241307088. doi: 10.1177/17455057241307088. PMID: 39686730; PMCID: PMC11650567.
