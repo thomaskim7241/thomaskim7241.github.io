@@ -12,13 +12,13 @@ about:
       href: "https://github.com/thomaskim7241/SURE2025.git"
     - icon: easel2
       text: "Slides"
-      href: Assets/Slides.pdf
+      href: projects/capstone/Assets/Slides.pdf
     - icon: file-code
       text: "Report"
-      href: Assets/SURE2025.html
+      href: projects/capstone/Assets/SURE2025.html
     - icon: sticky
       text: "Poster"
-      href: Assets/Poster.pdf
+      href: projects/capstone/Assets/Poster.pdf
     
 ---
 
