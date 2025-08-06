@@ -15,7 +15,7 @@ about:
       href: Assets/Slides.pdf
     - icon: file-code
       text: "Report"
-      href: SURE2025.qmd
+      href: Assets/SURE2025.html
     - icon: sticky
       text: "Poster"
       href: Assets/Poster.pdf
