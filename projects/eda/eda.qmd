@@ -12,7 +12,7 @@ about:
       href: "https://github.com/joannjun/cmueda"
     - icon: easel2
       text: "Slides"
-      href: projects/eda/EDA.html
+      href: projects/eda/EDA.Rmd
     
 ---
 
