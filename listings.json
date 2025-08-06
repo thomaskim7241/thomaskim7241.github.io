@@ -3,6 +3,7 @@
     "listing": "/projects.html",
     "items": [
       "/projects/eda/eda.html",
+      "/projects/eda/EDA.html",
       "/projects/capstone/capstone.html"
     ]
   }
