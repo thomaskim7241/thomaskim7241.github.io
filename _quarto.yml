@@ -14,14 +14,11 @@ website:
         text: Project
     right:
       - icon: linkedin
+        text: Linkedin
         href: https://www.linkedin.com/in/thomas-kim-csom/
-        target: blank
-      - icon: cash
-        href: https://account.venmo.com/u/Thomas-Kim-269
       - icon: github
+        text: Github
         href: https://github.com/thomaskim7241
-      - icon: file-dash
-        href: Assets/Resume.pdf
       - icon: inbox
         text: Email
         href: mailto:thomaskim7241@gmail.com
