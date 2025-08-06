@@ -22,6 +22,15 @@ website:
         href: https://github.com/thomaskim7241
       - icon: file-dash
         href: Assets/Resume.pdf
+      - icon: inbox
+        text: Email
+        href: mailto:thomaskim7241@gmail.com
+      - icon: hand-thumbs-up
+        text: Handshake
+        href: https://app.joinhandshake.com/profiles/cznmth
+      - icon: file-earmark-person-fill
+        text: Resume
+        href: Assets/Resume.pdf
 
 format:
   html:
