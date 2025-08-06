@@ -15,8 +15,10 @@ about:
       href: Slides.pdf
     - icon: file-code
       text: "Report"
-      href: "https://github.com/joannjun/cmueda"
-    - icon: 
+      href: SURE2025.qmd
+    - icon: sticky
+      text: "Poster"
+      href: Poster.pdf
     
 ---
 
