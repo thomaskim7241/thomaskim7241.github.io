@@ -12,7 +12,7 @@ about:
       href: "https://github.com/joannjun/cmueda"
     - icon: easel2
       text: "Slides"
-      href: "eda_pres.html"
+      href: "https://github.com/joannjun/cmueda"
     
 ---
 
