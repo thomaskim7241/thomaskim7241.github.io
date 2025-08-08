@@ -4,63 +4,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "My EDA Project for Maternal Healthcare Disparities\n\n\nThis is my summer 2025 EDA project\n\n\n\n\n\n\nJun 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nMaternal Healthcare Disparities\n\n\n\n\n\n\nThomas, Gedeon, Joann\n\n\nJun 10, 2025\n\n\n\n\n\n\n\n\n\n\n\nMy Capstone Project for Substance Abuse in Socioeconomic Climate\n\n\nThis is my summer 2025 Capstone project\n\n\n\n\n\n\nJul 25, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "My EDA Project for Maternal Healthcare Disparities\n\n\nThis is my summer 2025 EDA project\n\n\n\n\n\n\nJun 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nMy Capstone Project for Substance Abuse in Socioeconomic Climate\n\n\nThis is my summer 2025 Capstone project\n\n\n\n\n\n\nJul 25, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/eda/EDA.html#data",
-    "href": "projects/eda/EDA.html#data",
-    "title": "Maternal Healthcare Disparities",
-    "section": "Data",
-    "text": "Data\n\n12 columns\nAggregated by State, PriorBirthsNowDeceased, TobaccoUse, PrePregnancyDiabetes, PrePregnancyHypertension\nBirths\nAverageMotherAge\nAverageBirthWeight\nAveragePrePregnancyBMI\nAverageNumberPrenatalVisits\nAverageIntervalSinceLastBirth"
-  },
-  {
-    "objectID": "projects/eda/EDA.html#questions",
-    "href": "projects/eda/EDA.html#questions",
-    "title": "Maternal Healthcare Disparities",
-    "section": "Questions",
-    "text": "Questions\n\nDo certain states have higher BMI rates?\nDoes the amount of prenatal care visits relate to maternal health risk factors (diabetes, hypertension and tobacco use)"
-  },
-  {
-    "objectID": "projects/eda/EDA.html#states-vs.-bmi",
-    "href": "projects/eda/EDA.html#states-vs.-bmi",
-    "title": "Maternal Healthcare Disparities",
-    "section": "States vs. BMI",
-    "text": "States vs. BMI"
-  },
-  {
-    "objectID": "projects/eda/EDA.html#prenatal-visits-versus-risk-factors",
-    "href": "projects/eda/EDA.html#prenatal-visits-versus-risk-factors",
-    "title": "Maternal Healthcare Disparities",
-    "section": "Prenatal Visits Versus Risk Factors",
-    "text": "Prenatal Visits Versus Risk Factors"
-  },
-  {
-    "objectID": "projects/eda/EDA.html#infant-mortality-versus-prenatal-visits",
-    "href": "projects/eda/EDA.html#infant-mortality-versus-prenatal-visits",
-    "title": "Maternal Healthcare Disparities",
-    "section": "Infant Mortality Versus Prenatal Visits",
-    "text": "Infant Mortality Versus Prenatal Visits"
-  },
-  {
-    "objectID": "projects/eda/EDA.html#tobacco-diabetes-and-hypertensions-effects-on-infants",
-    "href": "projects/eda/EDA.html#tobacco-diabetes-and-hypertensions-effects-on-infants",
-    "title": "Maternal Healthcare Disparities",
-    "section": "Tobacco, Diabetes, And Hypertensions Effects on Infants",
-    "text": "Tobacco, Diabetes, And Hypertensions Effects on Infants"
-  },
-  {
-    "objectID": "projects/eda/EDA.html#conclusion",
-    "href": "projects/eda/EDA.html#conclusion",
-    "title": "Maternal Healthcare Disparities",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nMore prenatal visits observed for mothers with diabetes or hypertension.\nFewer visits among tobacco users may signal gaps in care outreach.\nThere are regional differences in BMI\nMothers who visited the doctor more often seem to have better infant health outcomes despite any risk factors"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Thomas Kim",
+    "objectID": "projects/eda/eda.html",
+    "href": "projects/eda/eda.html",
+    "title": "My EDA Project for Maternal Healthcare Disparities",
     "section": "",
-    "text": "Welcome! I’m a rising senior at the Carlson School of Management, studying Business Analytics, Management Information Systems, and Supply Chain & Operations. This site is a place to share my work, interests, and journey as I continue to grow in the world of business and technology."
+    "text": "This is my EDA project…\nwdawd…"
   },
   {
     "objectID": "projects/capstone/capstone.html",
@@ -70,10 +21,10 @@
     "text": "This is my capstone project…"
   },
   {
-    "objectID": "projects/eda/eda.html",
-    "href": "projects/eda/eda.html",
-    "title": "My EDA Project for Maternal Healthcare Disparities",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Thomas Kim",
     "section": "",
-    "text": "This is my EDA project…\nwdawd…"
+    "text": "Welcome! I’m a rising senior at the Carlson School of Management, studying Business Analytics, Management Information Systems, and Supply Chain & Operations. This site is a place to share my work, interests, and journey as I continue to grow in the world of business and technology."
   }
 ]
