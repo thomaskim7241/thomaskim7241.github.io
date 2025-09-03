@@ -22,4 +22,4 @@ about:
     
 ---
 
-This is my capstone project...
+This project explores how demographic and social factors contribute to substance abuse outcomes, specifically drug overdose and alcohol-impaired driving deaths using large scale county-level health data. I applied machine learning methods like LASSO and Random  Forest to identify key predictors, with the goal of generating insights for healthcare decision-makers at UnitedHealth Group and beyond. This work was the baseline for my improvement through a fully fleshed out project. I have learned so much about analytic projects, teamwork, and coding. My work blends statistical modeling, data storytelling, and public health strategy.
