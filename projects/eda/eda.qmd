@@ -16,7 +16,12 @@ about:
     
 ---
 
-This is my EDA project...
+This project explores disparities in maternal healthcare outcomes across U.S. states using aggregated public health data. The analysis focused on key risk factors—such as tobacco use, pre-pregnancy diabetes, and hypertension—and examined how these conditions interact with demographic and behavioral variables like mother’s age, prenatal visits, BMI, and birth weight.
 
-wdawd...
+Through statistical visualization and exploratory analysis, I investigated questions such as:
 
+Do certain states show higher prevalence of maternal health risk factors?
+
+How do levels of prenatal care relate to maternal outcomes and risk factors?
+
+The findings highlight patterns of inequality and suggest that access to consistent prenatal care plays a critical role in mitigating risks. This work served as both a data-driven exercise in exploratory analysis and a foundation for broader discussions on improving maternal health outcomes nationwide.
