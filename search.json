@@ -7,18 +7,18 @@
     "text": "My Capstone Project for Substance Abuse in Socioeconomic Climate\n\n\nThis is my summer 2025 Capstone project\n\n\n\n\n\n\nJul 25, 2025\n\n\n\n\n\n\n\n\n\n\n\nMy EDA Project for Maternal Healthcare Disparities\n\n\nThis is my summer 2025 EDA project\n\n\n\n\n\n\nJun 1, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/eda/eda.html",
-    "href": "projects/eda/eda.html",
-    "title": "My EDA Project for Maternal Healthcare Disparities",
-    "section": "",
-    "text": "This project explores disparities in maternal healthcare outcomes across U.S. states using aggregated public health data. The analysis focused on key risk factors—such as tobacco use, pre-pregnancy diabetes, and hypertension—and examined how these conditions interact with demographic and behavioral variables like mother’s age, prenatal visits, BMI, and birth weight.\nThrough statistical visualization and exploratory analysis, I investigated questions such as:\n\nDo certain states show higher prevalence of maternal health risk factors?\nHow do levels of prenatal care relate to maternal outcomes and risk factors?\n\nThe findings highlight patterns of inequality and suggest that access to consistent prenatal care plays a critical role in mitigating risks. This work served as both a data-driven exercise in exploratory analysis and a foundation for broader discussions on improving maternal health outcomes nationwide."
-  },
-  {
     "objectID": "projects/capstone/capstone.html",
     "href": "projects/capstone/capstone.html",
     "title": "My Capstone Project for Substance Abuse in Socioeconomic Climate",
     "section": "",
     "text": "This project examines how demographic and social factors contribute to substance abuse outcomes, specifically focusing on drug overdose deaths and alcohol-impaired driving fatalities at the county level. Using a large-scale health dataset, I applied machine learning techniques (LASSO regression and Random Forests) to identify key predictors and uncover patterns that could inform healthcare decision-making.\nThe analysis was guided by questions such as:\n\nWhich demographic and social factors are the strongest predictors of overdose and alcohol-related deaths?\nHow do socioeconomic disparities influence substance abuse outcomes across counties?\nWhat insights can analytics provide to healthcare organizations like UnitedHealth Group in designing prevention strategies?\n\nThis work combined statistical modeling, data storytelling, and public health strategy, while also deepening my skills in coding, teamwork, and large-scale data analysis."
+  },
+  {
+    "objectID": "projects/eda/eda.html",
+    "href": "projects/eda/eda.html",
+    "title": "My EDA Project for Maternal Healthcare Disparities",
+    "section": "",
+    "text": "This project explores disparities in maternal healthcare outcomes across U.S. states using aggregated public health data. The analysis focused on key risk factors—such as tobacco use, pre-pregnancy diabetes, and hypertension—and examined how these conditions interact with demographic and behavioral variables like mother’s age, prenatal visits, BMI, and birth weight.\nThrough statistical visualization and exploratory analysis, I investigated questions such as:\n\nDo certain states show higher prevalence of maternal health risk factors?\nHow do levels of prenatal care relate to maternal outcomes and risk factors?\n\nThe findings highlight patterns of inequality and suggest that access to consistent prenatal care plays a critical role in mitigating risks. This work served as both a data-driven exercise in exploratory analysis and a foundation for broader discussions on improving maternal health outcomes nationwide."
   },
   {
     "objectID": "index.html",
