@@ -1,27 +1,38 @@
 ---
-title: "My EDA Project for Maternal Healthcare Disparities"
-description: "This is my summer 2025 EDA project"
+title: "Maternal Healthcare Disparities — Exploratory Data Analysis"
+description: "Early-summer EDA project exploring maternal healthcare disparities (Summer 2025)."
 date: "June 2025"
 resources: "."
-about: 
+about:
   template: solana
   image: cover.jpg
-  links: 
+  links:
     - icon: github
       text: "GitHub"
       href: "https://github.com/joannjun/cmueda"
     - icon: easel2
       text: "Slides"
-      href: projects/eda/EDAPres.html
-    
+      href: EDAPres.html
+format:
+  html:
+    toc: false
 ---
 
-This project explores disparities in maternal healthcare outcomes across U.S. states using aggregated public health data. The analysis focused on key risk factors—such as tobacco use, pre-pregnancy diabetes, and hypertension—and examined how these conditions interact with demographic and behavioral variables like mother’s age, prenatal visits, BMI, and birth weight.
+**Role:** Research EDA Lead · CMU SURE Program
+**Period:** June 2025 · Pittsburgh, PA
 
-Through statistical visualization and exploratory analysis, I investigated questions such as:
+## Overview
 
-- Do certain states show higher prevalence of maternal health risk factors?
+Early-summer exploratory data analysis project investigating maternal healthcare disparities. This work was preparatory analysis that informed the broader CMU / Optum healthcare analytics research that followed later in the summer.
 
-- How do levels of prenatal care relate to maternal outcomes and risk factors?
+## What I did
 
-The findings highlight patterns of inequality and suggest that access to consistent prenatal care plays a critical role in mitigating risks. This work served as both a data-driven exercise in exploratory analysis and a foundation for broader discussions on improving maternal health outcomes nationwide.
+- Explored variable distributions, missingness patterns, and correlations in maternal health datasets.
+- Built ggplot2 visualizations to surface disparities by demographic and geographic dimensions.
+- Documented findings to inform downstream modeling decisions.
+
+## Skills applied
+
+R · tidyverse · ggplot2 · Exploratory Data Analysis · Data Cleaning · Statistical Communication
+
+[← Back to Projects](../../projects.html)

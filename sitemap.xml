@@ -2,18 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://thomaskim7241.github.io/index.html</loc>
-    <lastmod>2026-05-13T00:34:33.479Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomaskim7241.github.io/projects/eda/eda.html</loc>
-    <lastmod>2026-05-13T00:34:33.525Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomaskim7241.github.io/projects/capstone/capstone.html</loc>
-    <lastmod>2026-05-13T00:34:33.501Z</lastmod>
+    <lastmod>2026-05-14T19:33:48.546Z</lastmod>
   </url>
   <url>
     <loc>https://thomaskim7241.github.io/projects.html</loc>
-    <lastmod>2026-05-13T00:34:33.479Z</lastmod>
+    <lastmod>2026-05-14T19:33:48.546Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomaskim7241.github.io/projects/eda/RetryEDA.html</loc>
+    <lastmod>2026-05-14T19:33:48.587Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomaskim7241.github.io/resume.html</loc>
+    <lastmod>2026-05-14T19:33:48.593Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomaskim7241.github.io/projects/capstone/capstone.html</loc>
+    <lastmod>2026-05-14T19:33:48.567Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomaskim7241.github.io/projects/eda/eda.html</loc>
+    <lastmod>2026-05-14T19:33:48.590Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomaskim7241.github.io/experience.html</loc>
+    <lastmod>2026-05-14T19:33:48.546Z</lastmod>
   </url>
 </urlset>
