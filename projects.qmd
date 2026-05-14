@@ -1,10 +1,197 @@
 ---
 title: "Projects"
-listing:
-  contents: projects #name of project folder
-  type: grid
-  sort: 
-    - "date"
-    - "title desc"
-    - "date desc"
+pagetitle: "Projects — Thomas Kim"
+description-meta: "Analytics, supply chain, MIS, and consulting projects by Thomas Kim."
+page-layout: full
+format:
+  html:
+    toc: false
 ---
+
+```{=html}
+<section class="section-full" style="padding-top: 3rem; padding-bottom: 1rem;">
+  <div class="section-heading">
+    <span class="eyebrow">Portfolio</span>
+    <h2>Projects across analytics, operations, and systems</h2>
+    <p>A mix of academic, research, and consulting work I've been part of. Grouped by discipline so it's easy to find the kind of work you're looking for.</p>
+  </div>
+</section>
+
+<section class="section-full" style="padding-top: 0;">
+
+  <!-- ============ ANALYTICS & DATA SCIENCE ============ -->
+  <div class="project-category">
+    <div class="project-category-header">
+      <h2>Analytics &amp; Data Science</h2>
+      <span class="category-meta">R · Python · Modeling</span>
+    </div>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <span class="project-role">Business Analytics Lead</span>
+        <h3>Mobile App Co-Usage Patterns Analysis</h3>
+        <p class="project-date">January 2026 – May 2026 · Carlson School of Management</p>
+        <div class="project-desc">
+          <ul>
+            <li>Built an R analytics pipeline on a 20M-row 2023 Android usage panel using tidyverse and ggplot2.</li>
+            <li>Ran monthly Apriori association rule mining and surfaced Gemini-plus-finance-app co-usage as the headline pattern that came out of the data.</li>
+            <li>Set up canonical mappings for the major AI assistants and a 25-category non-AI app taxonomy that covered 85%+ of adopter interactions.</li>
+          </ul>
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">R</span>
+          <span class="project-tag">tidyverse</span>
+          <span class="project-tag">ggplot2</span>
+          <span class="project-tag">Association Rules</span>
+          <span class="project-tag">Product Analytics</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="Assets/slides/Mobile_App_CoUsage_Slides.pdf" target="_blank" rel="noopener"><i class="bi bi-easel2"></i> Slides</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-role">Healthcare Analytics Research Intern</span>
+        <h3>U.S. County Healthcare Analytics — CMU / Optum</h3>
+        <p class="project-date">June 2025 – July 2025 · Carnegie Mellon University &amp; UnitedHealth Group Optum</p>
+        <div class="project-desc">
+          <ul>
+            <li>Built and compared predictive models using LASSO, Random Forest, Elastic Net, and Huber regression across 3,000+ U.S. counties and 700+ variables.</li>
+            <li>Focused on the drivers behind public health outcomes like alcohol-impaired driving and drug overdose deaths.</li>
+            <li>Turned the statistical results into recommendations that healthcare strategy and planning audiences could actually use.</li>
+          </ul>
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">R</span>
+          <span class="project-tag">LASSO</span>
+          <span class="project-tag">Random Forest</span>
+          <span class="project-tag">Predictive Modeling</span>
+          <span class="project-tag">Healthcare Analytics</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="projects/capstone/capstone.html"><i class="bi bi-file-earmark-text"></i> Project Page</a>
+          <a class="project-link" href="projects/capstone/Slides.pdf" target="_blank" rel="noopener"><i class="bi bi-easel2"></i> Slides</a>
+          <a class="project-link" href="projects/capstone/Poster.pdf" target="_blank" rel="noopener"><i class="bi bi-sticky"></i> Poster</a>
+          <a class="project-link" href="projects/capstone/SURE2025.html" target="_blank" rel="noopener"><i class="bi bi-file-code"></i> Report</a>
+          <a class="project-link" href="https://github.com/thomaskim7241/SURE2025" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-role">Data Visualization Analyst</span>
+        <h3>Twin Cities in Motion Tableau Dashboards</h3>
+        <p class="project-date">September 2025 – December 2025 · Carlson School of Management</p>
+        <div class="project-desc">
+          <ul>
+            <li>Designed two interactive Tableau dashboards for the Twin Cities in Motion Challenge Series.</li>
+            <li>Built them to support real marketing, registration, revenue, and operations decisions across the event series.</li>
+            <li>Set up role-based views so marketing, operations, finance, and executive users could each land on what mattered to them without wading through the rest.</li>
+          </ul>
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">Tableau</span>
+          <span class="project-tag">Dashboard Design</span>
+          <span class="project-tag">Data Visualization</span>
+          <span class="project-tag">Marketing Analytics</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- ============ SUPPLY CHAIN & OPERATIONS ============ -->
+  <div class="project-category">
+    <div class="project-category-header">
+      <h2>Supply Chain &amp; Operations</h2>
+      <span class="category-meta">Forecasting · Planning</span>
+    </div>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <span class="project-role">Demand Planning Analytics Lead</span>
+        <h3>Trilliant Demand Forecasting</h3>
+        <p class="project-date">March 2026 – May 2026 · Minneapolis, MN &amp; Little Chute, WI</p>
+        <div class="project-desc">
+          <ul>
+            <li>Worked on real-client demand forecasting across Nurri, Dutch Bros, and Aspen Ridge SKUs.</li>
+            <li>Used Forecast Value Added (FVA) diagnostics to see where planner overrides were actually helping the forecast versus quietly making it worse.</li>
+            <li>Paired wMAPE, RMSE, and tracking signals to find forecast bias and point planners toward the SKUs that needed the most attention.</li>
+          </ul>
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">Demand Forecasting</span>
+          <span class="project-tag">FVA</span>
+          <span class="project-tag">wMAPE</span>
+          <span class="project-tag">RMSE</span>
+          <span class="project-tag">Tracking Signals</span>
+          <span class="project-tag">Excel</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- ============ MIS & ENTERPRISE SYSTEMS ============ -->
+  <div class="project-category">
+    <div class="project-category-header">
+      <h2>MIS &amp; Enterprise Systems</h2>
+      <span class="category-meta">SAP · ERP · Process</span>
+    </div>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <span class="project-role">SAP S/4HANA Business Process Analyst</span>
+        <h3>SAP S/4HANA Enterprise Systems Case Work</h3>
+        <p class="project-date">February 2026 – April 2026 · Carlson School of Management</p>
+        <div class="project-desc">
+          <ul>
+            <li>Walked through procure-to-pay case work end-to-end: vendor invoice entry, three-way match, payment run, and posting.</li>
+            <li>Ran the order-to-cash side on Global Bike Inc., from sales order creation through delivery, picking, goods issue, billing, and payment receipt.</li>
+            <li>Spent time across the FI, SD, and MM modules inside SAP S/4HANA and SAP Fiori to see how the data flowed between them.</li>
+          </ul>
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">SAP S/4HANA</span>
+          <span class="project-tag">SAP Fiori</span>
+          <span class="project-tag">ERP</span>
+          <span class="project-tag">Procure-to-Pay</span>
+          <span class="project-tag">Order-to-Cash</span>
+          <span class="project-tag">FI / SD / MM</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- ============ CONSULTING & TECHNOLOGY STRATEGY ============ -->
+  <div class="project-category">
+    <div class="project-category-header">
+      <h2>Consulting &amp; Technology Strategy</h2>
+      <span class="category-meta">Process · Systems</span>
+    </div>
+    <div class="project-grid">
+
+      <article class="project-card">
+        <span class="project-role">Student IT &amp; Systems Consultant</span>
+        <h3>Pura Vida IT Consulting — Costa Rica</h3>
+        <p class="project-date">January 2026 · CCAPS · San Ramón, Costa Rica</p>
+        <div class="project-desc">
+          <ul>
+            <li>Spent time on-site at a senior living facility looking at how workflows, information flow, technology constraints, and infrastructure were holding the operation back.</li>
+            <li>Helped shape recommendations across network continuity, documentation, a low-maintenance website rollout, digital recordkeeping, and resident-impact technology.</li>
+            <li>Tried to keep every recommendation practical and low-cost so the staff could actually pick it up and run with it after we left.</li>
+          </ul>
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">Systems Analysis</span>
+          <span class="project-tag">IT Consulting</span>
+          <span class="project-tag">Process Improvement</span>
+          <span class="project-tag">Digital Strategy</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+</section>
+```

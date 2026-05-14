@@ -1,8 +1,91 @@
 ---
 title: "Thomas Kim"
-about:
-  template: jolla
-  image: Assets/Headshot.png
+pagetitle: "Thomas Kim — Analytics, Systems, and Operations"
+description-meta: "Carlson School of Management student focused on analytics, systems, and operations improvement."
+page-layout: full
+format:
+  html:
+    toc: false
+    include-in-header:
+      text: |
+        <meta name="theme-color" content="#1f3a5f">
 ---
 
-Welcome! I’m a rising senior at the Carlson School of Management, studying Business Analytics, Management Information Systems, and Supply Chain & Operations. This site is a place to share my work, interests, and journey as I continue to grow in the world of business and technology.
+```{=html}
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="hero-eyebrow">Carlson School of Management — Class of 2026</span>
+      <h1>Analytics, systems, and operations improvement.</h1>
+      <p class="lead">Hi, I'm Thomas. I'm a senior at the Carlson School of Management concentrating in Management Information Systems, with additional studies in Supply Chain &amp; Operations Management and Business Analytics.</p>
+      <p class="hero-positioning">I combine supply chain operations, business analytics, and information systems to turn messy business problems into practical, data-driven recommendations.</p>
+      <div class="hero-cta">
+        <a class="btn-primary-tk" href="projects.html"><i class="bi bi-grid"></i> View Projects</a>
+        <a class="btn-secondary-tk" href="resume.html"><i class="bi bi-file-earmark-person"></i> Resume</a>
+        <a class="btn-secondary-tk" href="https://github.com/thomaskim7241" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
+        <a class="btn-secondary-tk" href="https://www.linkedin.com/in/thomas-kim-csom/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-headshot">
+      <img src="Assets/Headshot.png" alt="Headshot of Thomas Kim">
+    </div>
+  </div>
+</section>
+
+<section class="section-full">
+  <div class="section-heading">
+    <span class="eyebrow">What I Do</span>
+    <h2>Focus areas</h2>
+    <p>I tend to live at the intersection of these four spaces. The common thread is using data and systems to help business operations run a little better.</p>
+  </div>
+  <div class="focus-grid">
+    <div class="focus-card">
+      <div class="focus-icon"><i class="bi bi-diagram-3"></i></div>
+      <h3>MIS &amp; Enterprise Systems</h3>
+      <p>This is my home base. I've worked through SAP S/4HANA and SAP Fiori case work across procure-to-pay and order-to-cash, and I enjoy the requirements gathering, process modeling, and information flow side of MIS.</p>
+    </div>
+    <div class="focus-card">
+      <div class="focus-icon"><i class="bi bi-bar-chart-line"></i></div>
+      <h3>Business Analytics &amp; Data Visualization</h3>
+      <p>Predictive modeling, association rule mining, and dashboards in R, Python, SQL, Tableau, and Excel. I care most about making the output land with the people who actually have to use it.</p>
+    </div>
+    <div class="focus-card">
+      <div class="focus-icon"><i class="bi bi-truck"></i></div>
+      <h3>Supply Chain &amp; Demand Planning</h3>
+      <p>Demand forecasting, inventory, and operations analysis. I'm comfortable using Forecast Value Added, wMAPE, RMSE, and tracking signals to look at whether a forecast is actually any good.</p>
+    </div>
+    <div class="focus-card">
+      <div class="focus-icon"><i class="bi bi-lightbulb"></i></div>
+      <h3>Technology Consulting &amp; Process Improvement</h3>
+      <p>I like sitting with stakeholders, watching how work actually happens, and finding the small process or technology change that takes the most friction out of their day.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-full section-band">
+  <div class="section-heading">
+    <span class="eyebrow">Snapshot</span>
+    <h2>A few things I've worked on</h2>
+    <p>Short version. The Projects page has the full picture.</p>
+  </div>
+  <div class="focus-grid">
+    <div class="focus-card">
+      <h3>20M-row analytics pipeline</h3>
+      <p>Built an R pipeline on a 2023 Android usage panel using monthly Apriori association rule mining, a 25-category app taxonomy, and a clean visualization layer in ggplot2.</p>
+    </div>
+    <div class="focus-card">
+      <h3>Healthcare research at CMU / Optum</h3>
+      <p>Spent a summer modeling public health outcomes across 3,000+ U.S. counties and 700+ variables using LASSO, Random Forest, Elastic Net, and Huber regression.</p>
+    </div>
+    <div class="focus-card">
+      <h3>Real-client demand forecasting</h3>
+      <p>Worked Forecast Value Added diagnostics with wMAPE, RMSE, and tracking signals on Nurri, Dutch Bros, and Aspen Ridge SKUs to figure out where planner overrides were helping versus hurting.</p>
+    </div>
+  </div>
+  <div class="contact-line">
+    <span><i class="bi bi-envelope"></i> <a href="mailto:thomaskim2457@gmail.com">thomaskim2457@gmail.com</a></span>
+    <span><i class="bi bi-telephone"></i> 952-994-7241</span>
+    <span><i class="bi bi-geo-alt"></i> Minneapolis, MN</span>
+  </div>
+</section>
+```

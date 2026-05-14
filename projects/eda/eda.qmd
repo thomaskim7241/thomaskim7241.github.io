@@ -1,22 +1,38 @@
 ---
-title: "My EDA Project for Maternal Healthcare Disparities"
-description: "This is my summer 2025 EDA project"
+title: "Maternal Healthcare Disparities — Exploratory Data Analysis"
+description: "Early-summer EDA project exploring maternal healthcare disparities (Summer 2025)."
 date: "June 2025"
 resources: "."
-about: 
+about:
   template: solana
   image: cover.jpg
-  links: 
+  links:
     - icon: github
       text: "GitHub"
       href: "https://github.com/joannjun/cmueda"
     - icon: easel2
       text: "Slides"
-      href: projects/eda/EDAPres.html
-    
+      href: EDAPres.html
+format:
+  html:
+    toc: false
 ---
 
-This is my EDA project...
+**Role:** Research EDA Lead · CMU SURE Program
+**Period:** June 2025 · Pittsburgh, PA
 
-wdawd...
+## Overview
 
+Early-summer exploratory data analysis project investigating maternal healthcare disparities. This work was preparatory analysis that informed the broader CMU / Optum healthcare analytics research that followed later in the summer.
+
+## What I did
+
+- Explored variable distributions, missingness patterns, and correlations in maternal health datasets.
+- Built ggplot2 visualizations to surface disparities by demographic and geographic dimensions.
+- Documented findings to inform downstream modeling decisions.
+
+## Skills applied
+
+R · tidyverse · ggplot2 · Exploratory Data Analysis · Data Cleaning · Statistical Communication
+
+[← Back to Projects](../../projects.html)

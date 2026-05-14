@@ -1,25 +1,45 @@
 ---
-title: "Capstone Project: Substance Abuse in Socioeconomic Climate"
-description: "This is my summer 2025 Capstone project"
+title: "U.S. County Healthcare Analytics — CMU / Optum"
+description: "Predictive modeling of public health outcomes across 3,000+ U.S. counties and 700+ variables (Summer 2025)."
 date: "July 25 2025"
 resources: "."
-about: 
+about:
   template: solana
   image: cover.jpg
-  links: 
+  links:
     - icon: github
       text: "GitHub"
-      href: "https://github.com/thomaskim7241/SURE2025.git"
+      href: "https://github.com/thomaskim7241/SURE2025"
     - icon: easel2
       text: "Slides"
-      href: projects/capstone/Assets/Slides.pdf
+      href: Slides.pdf
     - icon: file-code
       text: "Report"
-      href: projects/capstone/Assets/SURE2025.html
+      href: SURE2025.html
     - icon: sticky
       text: "Poster"
-      href: projects/capstone/Assets/Poster.pdf
-    
+      href: Poster.pdf
+format:
+  html:
+    toc: false
 ---
 
-This project explores how demographic and social factors contribute to substance abuse outcomes, specifically drug overdose and alcohol-impaired driving deaths using large scale county-level health data. I applied machine learning methods like LASSO and Random  Forest to identify key predictors, with the goal of generating insights for healthcare decision-makers at UnitedHealth Group and beyond. This work was the baseline for my improvement through a fully fleshed out project. I have learned so much about analytic projects, teamwork, and coding. My work blends statistical modeling, data storytelling, and public health strategy.
+**Role:** Healthcare Analytics Research Intern · Carnegie Mellon University & UnitedHealth Group Optum
+**Period:** June 2025 – July 2025 · Pittsburgh, PA
+
+## Overview
+
+Healthcare analytics research project investigating how demographic and social factors contribute to substance abuse outcomes — specifically drug overdose and alcohol-impaired driving deaths — using large-scale, county-level public health data.
+
+## What I did
+
+- Built and evaluated predictive models using **LASSO**, **Random Forest**, **Elastic Net**, and **Huber regression** across **3,000+ U.S. counties** and **700+ variables** to identify drivers of public health outcomes.
+- Cleaned, analyzed, and visualized large-scale healthcare datasets in **R** and **Excel**, including feature engineering and variable selection workflows.
+- Translated statistical findings into stakeholder-facing recommendations for healthcare strategy and planning.
+- Collaborated in a 3-person team under PhD mentorship through the SURE program.
+
+## Skills applied
+
+R · Predictive Modeling · LASSO · Random Forest · Elastic Net · Huber Regression · Data Visualization · Healthcare Analytics · Statistical Communication
+
+[← Back to Projects](../../projects.html)

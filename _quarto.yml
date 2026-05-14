@@ -1,42 +1,65 @@
 project:
   type: website
-  resources: Assets
-  
+  resources:
+    - Assets
+    - Assets/resumes
+    - projects
 
 website:
   title: "Thomas Kim"
+  description: "Carlson School of Management student combining analytics, systems, and operations improvement."
+  site-url: "https://thomaskim7241.github.io"
+  page-navigation: true
   navbar:
-    background: "#E6BE8A"
+    background: "#1f3a5f"
+    foreground: "light"
+    pinned: true
     left:
       - href: index.qmd
-        text: About Me
+        text: Home
       - href: projects.qmd
-        text: Project
+        text: Projects
+      - href: experience.qmd
+        text: Experience
+      - href: resume.qmd
+        text: Resume
     right:
       - icon: linkedin
-        text: Linkedin
+        text: LinkedIn
         href: https://www.linkedin.com/in/thomas-kim-csom/
+        aria-label: LinkedIn
       - icon: github
-        text: Github
+        text: GitHub
         href: https://github.com/thomaskim7241
-      - icon: inbox
+        aria-label: GitHub
+      - icon: envelope
         text: Email
-        href: mailto:thomaskim7241@gmail.com
-      - icon: hand-thumbs-up
-        text: Handshake
-        href: https://app.joinhandshake.com/profiles/cznmth
-      - icon: file-earmark-person-fill
-        text: Resume
-        href: Assets/Resume.pdf
+        href: mailto:thomaskim2457@gmail.com
+        aria-label: Email
+  page-footer:
+    background: "#0f1f33"
+    foreground: "light"
+    left: "© 2026 Thomas Kim — Carlson School of Management"
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/thomas-kim-csom/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/thomaskim7241
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:thomaskim2457@gmail.com
+        aria-label: Email
 
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
-    css: styles.cssq
-    toc: true
+    theme: flatly
+    css: styles.css
+    toc: false
+    page-layout: full
+    anchor-sections: false
+    smooth-scroll: true
+    link-external-newwindow: true
 
-execute: 
+execute:
   freeze: auto
-

@@ -1,0 +1,62 @@
+---
+title: "Resume"
+pagetitle: "Resume — Thomas Kim"
+description-meta: "Download Thomas Kim's MIS / Analytics and Supply Chain / Operations resumes."
+page-layout: full
+format:
+  html:
+    toc: false
+---
+
+```{=html}
+<section class="section-full" style="padding-top: 3rem; padding-bottom: 1rem;">
+  <div class="section-heading">
+    <span class="eyebrow">Resume</span>
+    <h2>Two resumes, one consistent story</h2>
+    <p>I keep two versions of my resume so the experience that matters most for a given role is right at the top. Same coursework, same projects, same person — just ordered differently depending on the audience.</p>
+  </div>
+</section>
+
+<section class="section-full" style="padding-top: 0;">
+  <div class="resume-grid">
+
+    <article class="resume-card">
+      <span class="resume-eyebrow">Track 1</span>
+      <h3>MIS &amp; Analytics Resume</h3>
+      <p class="resume-best">Best for: Business Analyst, Data Analyst, MIS Analyst, Technology Consulting, Healthcare Analytics, and Product Analytics roles.</p>
+      <ul class="resume-bullets">
+        <li>Leads with predictive modeling, association rule mining, and SQL.</li>
+        <li>Features the CMU / Optum healthcare research and the 20M-row Android usage analysis.</li>
+        <li>Calls out Tableau dashboards, requirements gathering, and process modeling on the systems side.</li>
+      </ul>
+      <div class="resume-actions">
+        <a class="btn-primary-tk" href="Assets/resumes/Kim_Thomas_Resume_MIS.pdf" target="_blank" rel="noopener" download><i class="bi bi-download"></i> Download PDF</a>
+        <a class="btn-ghost-tk" href="Assets/resumes/Kim_Thomas_Resume_MIS.pdf" target="_blank" rel="noopener"><i class="bi bi-eye"></i> View</a>
+      </div>
+    </article>
+
+    <article class="resume-card">
+      <span class="resume-eyebrow">Track 2</span>
+      <h3>Supply Chain &amp; Operations Resume</h3>
+      <p class="resume-best">Best for: Supply Chain Analyst, Operations Analyst, Demand Planning, Procurement, Inventory, ERP, and Rotational Program roles.</p>
+      <ul class="resume-bullets">
+        <li>Leads with demand forecasting, inventory management, and operations analysis.</li>
+        <li>Features the Trilliant demand forecasting work and SAP S/4HANA ERP case work.</li>
+        <li>Calls out process improvement, Lean Six Sigma, and supply chain planning skills.</li>
+      </ul>
+      <div class="resume-actions">
+        <a class="btn-primary-tk" href="Assets/resumes/Kim_Thomas_Resume_SC.pdf" target="_blank" rel="noopener" download><i class="bi bi-download"></i> Download PDF</a>
+        <a class="btn-ghost-tk" href="Assets/resumes/Kim_Thomas_Resume_SC.pdf" target="_blank" rel="noopener"><i class="bi bi-eye"></i> View</a>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="contact-line" style="margin-top: 3rem;">
+    <span><i class="bi bi-envelope"></i> <a href="mailto:thomaskim2457@gmail.com">thomaskim2457@gmail.com</a></span>
+    <span><i class="bi bi-telephone"></i> 952-994-7241</span>
+    <span><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/thomas-kim-csom/" target="_blank" rel="noopener">LinkedIn</a></span>
+    <span><i class="bi bi-github"></i> <a href="https://github.com/thomaskim7241" target="_blank" rel="noopener">GitHub</a></span>
+  </div>
+</section>
+```
