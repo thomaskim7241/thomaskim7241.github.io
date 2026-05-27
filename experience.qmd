@@ -9,98 +9,134 @@ format:
 ---
 
 ```{=html}
-<section class="section-full" style="padding-top: 3rem; padding-bottom: 1rem;">
-  <div class="section-heading">
+<section class="section-full tight">
+  <div class="section-heading fade-up">
     <span class="eyebrow">Background</span>
     <h2>Experience &amp; skills</h2>
     <p>Here's the longer story behind the resume — where I've worked, what I've learned, and the tools I use day-to-day.</p>
   </div>
 </section>
 
-<section class="section-full" style="padding-top: 0;">
+<section class="section-full" style="padding-top: 0; padding-bottom: 4rem;">
 
-  <h2 style="text-align:center;">Education</h2>
-  <div class="education-card">
+  <!-- Education -->
+  <div class="section-divider fade-up">
+    <div class="section-divider-line"></div>
+    <span class="section-divider-label">Education</span>
+    <div class="section-divider-line"></div>
+  </div>
+
+  <div class="education-card fade-up">
     <h3>University of Minnesota, Twin Cities</h3>
-    <div class="ed-meta">Carlson School of Management · Minneapolis, MN · Expected May 2026</div>
+    <div class="ed-meta">Carlson School of Management · Minneapolis, MN · May 2026</div>
     <p style="margin: 0.5rem 0;">B.S. in Business with a concentration in Management Information Systems, plus studies in Supply Chain &amp; Operations Management and Business Analytics.</p>
     <div class="ed-honors">W&amp;S Hodder Scholar · Dean's List · GPA 3.81</div>
   </div>
 
-  <h2 style="text-align:center; margin-top:3rem;">Work Experience</h2>
-  <div class="exp-section">
+  <!-- Work Experience -->
+  <div class="section-divider fade-up" style="margin-top: 3.5rem;">
+    <div class="section-divider-line"></div>
+    <span class="section-divider-label">Work Experience</span>
+    <div class="section-divider-line"></div>
+  </div>
 
-    <div class="exp-item">
-      <div class="exp-item-header">
-        <div>
-          <h3>Carnegie Mellon University / UnitedHealth Group Optum</h3>
-          <div class="exp-role">Healthcare Analytics Research Intern · Pittsburgh, PA</div>
+  <div class="timeline">
+
+    <div class="timeline-item fade-up">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div class="timeline-header">
+          <div>
+            <h3>Carnegie Mellon University / UnitedHealth Group Optum</h3>
+            <div class="exp-role">Healthcare Analytics Research Intern · Pittsburgh, PA</div>
+          </div>
+          <span class="exp-meta">June 2025 – July 2025</span>
         </div>
-        <div class="exp-meta">June 2025 – July 2025</div>
+        <ul>
+          <li>Worked in a 3-person team under PhD mentorship, digging into county-level healthcare data to look at resource allocation and public health patterns.</li>
+          <li>Built and tested predictive models using LASSO, Random Forest, Elastic Net, and Huber regression across 3,000+ U.S. counties and 700+ variables.</li>
+          <li>Cleaned, analyzed, and visualized the data in R and Excel, then translated what the models were saying into recommendations a non-technical audience could act on.</li>
+        </ul>
       </div>
-      <ul>
-        <li>Worked in a 3-person team under PhD mentorship, digging into county-level healthcare data to look at resource allocation and public health patterns.</li>
-        <li>Built and tested predictive models using LASSO, Random Forest, Elastic Net, and Huber regression across 3,000+ U.S. counties and 700+ variables.</li>
-        <li>Cleaned, analyzed, and visualized the data in R and Excel, then translated what the models were saying into recommendations a non-technical audience could act on.</li>
-      </ul>
     </div>
 
-    <div class="exp-item">
-      <div class="exp-item-header">
-        <div>
-          <h3>Cajun House</h3>
-          <div class="exp-role">Front End Manager · Minneapolis, MN</div>
+    <div class="timeline-item fade-up delay-1">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div class="timeline-header">
+          <div>
+            <h3>Cajun House</h3>
+            <div class="exp-role">Front End Manager · Minneapolis, MN</div>
+          </div>
+          <span class="exp-meta">June 2023 – Present</span>
         </div>
-        <div class="exp-meta">June 2023 – Present</div>
+        <ul>
+          <li>Run the front of house during high-volume service periods, coordinating staff and online orders so the line keeps moving.</li>
+          <li>Helped drive a 25% increase in online order revenue and a 13% boost in customer satisfaction.</li>
+          <li>Watch inventory levels and adjust stock against demand patterns to reduce waste, prevent shortages, and keep food cost in check on the busiest nights.</li>
+        </ul>
       </div>
-      <ul>
-        <li>Run the front of house during high-volume service periods, coordinating staff and online orders so the line keeps moving.</li>
-        <li>Helped drive a 25% increase in online order revenue and a 13% boost in customer satisfaction.</li>
-        <li>Watch inventory levels and adjust stock against demand patterns to reduce waste, prevent shortages, and keep food cost in check on the busiest nights.</li>
-      </ul>
     </div>
 
-    <div class="exp-item">
-      <div class="exp-item-header">
-        <div>
-          <h3>Chin Up Electric</h3>
-          <div class="exp-role">Electrician Assistant</div>
+    <div class="timeline-item fade-up delay-2">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div class="timeline-header">
+          <div>
+            <h3>Chin Up Electric</h3>
+            <div class="exp-role">Electrician Assistant</div>
+          </div>
+          <span class="exp-meta">Seasonal</span>
         </div>
-        <div class="exp-meta">Seasonal</div>
+        <ul>
+          <li>Worked alongside licensed electricians on a wide range of jobs, with the situation often changing once we were actually on-site.</li>
+          <li>Applied critical thinking to break unfamiliar problems into smaller, diagnosable steps and figure out the safest, most practical way forward.</li>
+          <li>Learned to communicate clearly with the lead electrician under time pressure, ask the right questions, and pick up technical skills quickly across very different job sites.</li>
+        </ul>
       </div>
-      <ul>
-        <li>Worked alongside licensed electricians on a wide range of jobs, with the situation often changing once we were actually on-site.</li>
-        <li>Applied critical thinking to break unfamiliar problems into smaller, diagnosable steps and figure out the safest, most practical way forward.</li>
-        <li>Learned to communicate clearly with the lead electrician under time pressure, ask the right questions, and pick up technical skills quickly across very different job sites.</li>
-      </ul>
     </div>
 
   </div>
 
-  <h2 style="text-align:center; margin-top:3rem;">Leadership &amp; Activities</h2>
-  <div class="exp-section">
+  <!-- Leadership -->
+  <div class="section-divider fade-up" style="margin-top: 3.5rem;">
+    <div class="section-divider-line"></div>
+    <span class="section-divider-label">Leadership &amp; Activities</span>
+    <div class="section-divider-line"></div>
+  </div>
 
-    <div class="exp-item">
-      <div class="exp-item-header">
-        <div>
-          <h3>University of Minnesota CCAPS — Pura Vida Consulting</h3>
-          <div class="exp-role">Student IT &amp; Systems Consultant · San Ramón, Costa Rica</div>
+  <div class="timeline">
+
+    <div class="timeline-item fade-up">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <div class="timeline-header">
+          <div>
+            <h3>University of Minnesota CCAPS — Pura Vida Consulting</h3>
+            <div class="exp-role">Student IT &amp; Systems Consultant · San Ramón, Costa Rica</div>
+          </div>
+          <span class="exp-meta">January 2026</span>
         </div>
-        <div class="exp-meta">January 2026</div>
+        <ul>
+          <li>Spent time on the ground at a senior living facility looking at how workflows, information flow, and small operational bottlenecks were actually playing out.</li>
+          <li>Used cross-functional systems thinking to surface opportunities around data tracking, digital recordkeeping, and lighter-weight technology.</li>
+          <li>Helped shape an IT improvement proposal covering network continuity, documentation, a low-maintenance website rollout, and resident-impact tech recommendations.</li>
+        </ul>
       </div>
-      <ul>
-        <li>Spent time on the ground at a senior living facility looking at how workflows, information flow, and small operational bottlenecks were actually playing out.</li>
-        <li>Used cross-functional systems thinking to surface opportunities around data tracking, digital recordkeeping, and lighter-weight technology.</li>
-        <li>Helped shape an IT improvement proposal covering network continuity, documentation, a low-maintenance website rollout, and resident-impact tech recommendations.</li>
-      </ul>
     </div>
 
   </div>
 
-  <h2 style="text-align:center; margin-top:3rem;">Skills</h2>
+  <!-- Skills -->
+  <div class="section-divider fade-up" style="margin-top: 3.5rem;">
+    <div class="section-divider-line"></div>
+    <span class="section-divider-label">Skills</span>
+    <div class="section-divider-line"></div>
+  </div>
+
   <div class="skills-grid">
 
-    <div class="skill-group">
+    <div class="skill-group fade-up delay-1">
       <h4>Analytics &amp; Modeling</h4>
       <div class="skill-list">
         <span class="skill-pill">Predictive Modeling</span>
@@ -110,7 +146,7 @@ format:
       </div>
     </div>
 
-    <div class="skill-group">
+    <div class="skill-group fade-up delay-2">
       <h4>Supply Chain &amp; Operations</h4>
       <div class="skill-list">
         <span class="skill-pill">Demand Forecasting</span>
@@ -126,7 +162,7 @@ format:
       </div>
     </div>
 
-    <div class="skill-group">
+    <div class="skill-group fade-up delay-3">
       <h4>MIS &amp; Systems</h4>
       <div class="skill-list">
         <span class="skill-pill">Requirements Gathering</span>
@@ -137,7 +173,7 @@ format:
       </div>
     </div>
 
-    <div class="skill-group">
+    <div class="skill-group fade-up delay-4">
       <h4>Tools</h4>
       <div class="skill-list">
         <span class="skill-pill">R (tidyverse, ggplot2)</span>
@@ -155,7 +191,7 @@ format:
 
   </div>
 
-  <div class="contact-line" style="margin-top: 3rem;">
+  <div class="contact-line">
     <span><i class="bi bi-envelope"></i> <a href="mailto:thomaskim2457@gmail.com">thomaskim2457@gmail.com</a></span>
     <span><i class="bi bi-telephone"></i> 952-994-7241</span>
     <span><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/thomas-kim-csom/" target="_blank" rel="noopener">LinkedIn</a></span>
@@ -163,4 +199,21 @@ format:
   </div>
 
 </section>
+
+<script>
+(function () {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+  document.querySelectorAll('.fade-up').forEach((el) => observer.observe(el));
+})();
+</script>
 ```

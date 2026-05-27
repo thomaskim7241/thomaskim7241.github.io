@@ -9,18 +9,18 @@ format:
 ---
 
 ```{=html}
-<section class="section-full" style="padding-top: 3rem; padding-bottom: 1rem;">
-  <div class="section-heading">
+<section class="section-full tight">
+  <div class="section-heading fade-up">
     <span class="eyebrow">Resume</span>
     <h2>Two resumes, one consistent story</h2>
     <p>I keep two versions of my resume so the experience that matters most for a given role is right at the top. Same coursework, same projects, same person — just ordered differently depending on the audience.</p>
   </div>
 </section>
 
-<section class="section-full" style="padding-top: 0;">
+<section class="section-full" style="padding-top: 0; padding-bottom: 4rem;">
   <div class="resume-grid">
 
-    <article class="resume-card">
+    <article class="resume-card fade-up delay-1">
       <span class="resume-eyebrow">Track 1</span>
       <h3>MIS &amp; Analytics Resume</h3>
       <p class="resume-best">Best for: Business Analyst, Data Analyst, MIS Analyst, Technology Consulting, Healthcare Analytics, and Product Analytics roles.</p>
@@ -35,7 +35,7 @@ format:
       </div>
     </article>
 
-    <article class="resume-card">
+    <article class="resume-card fade-up delay-2">
       <span class="resume-eyebrow">Track 2</span>
       <h3>Supply Chain &amp; Operations Resume</h3>
       <p class="resume-best">Best for: Supply Chain Analyst, Operations Analyst, Demand Planning, Procurement, Inventory, ERP, and Rotational Program roles.</p>
@@ -52,11 +52,28 @@ format:
 
   </div>
 
-  <div class="contact-line" style="margin-top: 3rem;">
+  <div class="contact-line">
     <span><i class="bi bi-envelope"></i> <a href="mailto:thomaskim2457@gmail.com">thomaskim2457@gmail.com</a></span>
     <span><i class="bi bi-telephone"></i> 952-994-7241</span>
     <span><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/thomas-kim-csom/" target="_blank" rel="noopener">LinkedIn</a></span>
     <span><i class="bi bi-github"></i> <a href="https://github.com/thomaskim7241" target="_blank" rel="noopener">GitHub</a></span>
   </div>
 </section>
+
+<script>
+(function () {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+  document.querySelectorAll('.fade-up').forEach((el) => observer.observe(el));
+})();
+</script>
 ```

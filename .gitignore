@@ -1,9 +1,12 @@
 /.quarto/
 /_site/
+/projects_files/
 .Rproj.user
+*.Rproj
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
 *.DS_Store
-*.Rproj
 **/*.quarto_ipynb
+*.tmp

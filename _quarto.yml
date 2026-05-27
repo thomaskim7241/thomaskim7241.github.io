@@ -2,16 +2,15 @@ project:
   type: website
   resources:
     - Assets
-    - Assets/resumes
     - projects
 
 website:
   title: "Thomas Kim"
-  description: "Carlson School of Management student combining analytics, systems, and operations improvement."
+  description: "Carlson School of Management graduate combining analytics, systems, and operations improvement."
   site-url: "https://thomaskim7241.github.io"
   page-navigation: true
   navbar:
-    background: "#1f3a5f"
+    background: "#1b3a6b"
     foreground: "light"
     pinned: true
     left:

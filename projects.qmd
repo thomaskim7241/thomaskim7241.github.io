@@ -9,25 +9,25 @@ format:
 ---
 
 ```{=html}
-<section class="section-full" style="padding-top: 3rem; padding-bottom: 1rem;">
-  <div class="section-heading">
+<section class="section-full tight">
+  <div class="section-heading fade-up">
     <span class="eyebrow">Portfolio</span>
     <h2>Projects across analytics, operations, and systems</h2>
     <p>A mix of academic, research, and consulting work I've been part of. Grouped by discipline so it's easy to find the kind of work you're looking for.</p>
   </div>
 </section>
 
-<section class="section-full" style="padding-top: 0;">
+<section class="section-full" style="padding-top: 0; padding-bottom: 4rem;">
 
-  <!-- ============ ANALYTICS & DATA SCIENCE ============ -->
-  <div class="project-category">
+  <!-- ── Analytics & Data Science ─────────────────────── -->
+  <div class="project-category fade-up">
     <div class="project-category-header">
       <h2>Analytics &amp; Data Science</h2>
       <span class="category-meta">R · Python · Modeling</span>
     </div>
     <div class="project-grid">
 
-      <article class="project-card">
+      <article class="project-card fade-up delay-1">
         <span class="project-role">Business Analytics Lead</span>
         <h3>Mobile App Co-Usage Patterns Analysis</h3>
         <p class="project-date">January 2026 – May 2026 · Carlson School of Management</p>
@@ -50,7 +50,7 @@ format:
         </div>
       </article>
 
-      <article class="project-card">
+      <article class="project-card fade-up delay-2">
         <span class="project-role">Healthcare Analytics Research Intern</span>
         <h3>U.S. County Healthcare Analytics — CMU / Optum</h3>
         <p class="project-date">June 2025 – July 2025 · Carnegie Mellon University &amp; UnitedHealth Group Optum</p>
@@ -77,7 +77,7 @@ format:
         </div>
       </article>
 
-      <article class="project-card">
+      <article class="project-card fade-up delay-3">
         <span class="project-role">Data Visualization Analyst</span>
         <h3>Twin Cities in Motion Tableau Dashboards</h3>
         <p class="project-date">September 2025 – December 2025 · Carlson School of Management</p>
@@ -99,15 +99,15 @@ format:
     </div>
   </div>
 
-  <!-- ============ SUPPLY CHAIN & OPERATIONS ============ -->
-  <div class="project-category">
+  <!-- ── Supply Chain & Operations ─────────────────────── -->
+  <div class="project-category fade-up">
     <div class="project-category-header">
       <h2>Supply Chain &amp; Operations</h2>
       <span class="category-meta">Forecasting · Planning</span>
     </div>
-    <div class="project-grid">
+    <div class="project-grid single">
 
-      <article class="project-card">
+      <article class="project-card fade-up delay-1">
         <span class="project-role">Demand Planning Analytics Lead</span>
         <h3>Trilliant Demand Forecasting</h3>
         <p class="project-date">March 2026 – May 2026 · Minneapolis, MN &amp; Little Chute, WI</p>
@@ -131,15 +131,15 @@ format:
     </div>
   </div>
 
-  <!-- ============ MIS & ENTERPRISE SYSTEMS ============ -->
-  <div class="project-category">
+  <!-- ── MIS & Enterprise Systems ──────────────────────── -->
+  <div class="project-category fade-up">
     <div class="project-category-header">
       <h2>MIS &amp; Enterprise Systems</h2>
       <span class="category-meta">SAP · ERP · Process</span>
     </div>
-    <div class="project-grid">
+    <div class="project-grid single">
 
-      <article class="project-card">
+      <article class="project-card fade-up delay-1">
         <span class="project-role">SAP S/4HANA Business Process Analyst</span>
         <h3>SAP S/4HANA Enterprise Systems Case Work</h3>
         <p class="project-date">February 2026 – April 2026 · Carlson School of Management</p>
@@ -163,15 +163,15 @@ format:
     </div>
   </div>
 
-  <!-- ============ CONSULTING & TECHNOLOGY STRATEGY ============ -->
-  <div class="project-category">
+  <!-- ── Consulting & Technology Strategy ──────────────── -->
+  <div class="project-category fade-up">
     <div class="project-category-header">
       <h2>Consulting &amp; Technology Strategy</h2>
       <span class="category-meta">Process · Systems</span>
     </div>
-    <div class="project-grid">
+    <div class="project-grid single">
 
-      <article class="project-card">
+      <article class="project-card fade-up delay-1">
         <span class="project-role">Student IT &amp; Systems Consultant</span>
         <h3>Pura Vida IT Consulting — Costa Rica</h3>
         <p class="project-date">January 2026 · CCAPS · San Ramón, Costa Rica</p>
@@ -194,4 +194,21 @@ format:
   </div>
 
 </section>
+
+<script>
+(function () {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+  document.querySelectorAll('.fade-up').forEach((el) => observer.observe(el));
+})();
+</script>
 ```
