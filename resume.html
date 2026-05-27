@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-97d5b6ecc0cc5b9c5c260cbd2cf8f307.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ef489b90bf6bb423b62a0d2a8cf7d494.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -159,18 +159,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section class="section-full" style="padding-top: 3rem; padding-bottom: 1rem;">
-  <div class="section-heading">
+<section class="section-full tight">
+  <div class="section-heading fade-up">
     <span class="eyebrow">Resume</span>
     <h2>Two resumes, one consistent story</h2>
     <p>I keep two versions of my resume so the experience that matters most for a given role is right at the top. Same coursework, same projects, same person — just ordered differently depending on the audience.</p>
   </div>
 </section>
 
-<section class="section-full" style="padding-top: 0;">
+<section class="section-full" style="padding-top: 0; padding-bottom: 4rem;">
   <div class="resume-grid">
 
-    <article class="resume-card">
+    <article class="resume-card fade-up delay-1">
       <span class="resume-eyebrow">Track 1</span>
       <h3>MIS &amp; Analytics Resume</h3>
       <p class="resume-best">Best for: Business Analyst, Data Analyst, MIS Analyst, Technology Consulting, Healthcare Analytics, and Product Analytics roles.</p>
@@ -185,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
       </div>
     </article>
 
-    <article class="resume-card">
+    <article class="resume-card fade-up delay-2">
       <span class="resume-eyebrow">Track 2</span>
       <h3>Supply Chain &amp; Operations Resume</h3>
       <p class="resume-best">Best for: Supply Chain Analyst, Operations Analyst, Demand Planning, Procurement, Inventory, ERP, and Rotational Program roles.</p>
@@ -202,13 +202,30 @@ ul.task-list li input[type="checkbox"] {
 
   </div>
 
-  <div class="contact-line" style="margin-top: 3rem;">
+  <div class="contact-line">
     <span><i class="bi bi-envelope"></i> <a href="mailto:thomaskim2457@gmail.com">thomaskim2457@gmail.com</a></span>
     <span><i class="bi bi-telephone"></i> 952-994-7241</span>
     <span><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/thomas-kim-csom/" target="_blank" rel="noopener">LinkedIn</a></span>
     <span><i class="bi bi-github"></i> <a href="https://github.com/thomaskim7241" target="_blank" rel="noopener">GitHub</a></span>
   </div>
 </section>
+
+<script>
+(function () {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+  document.querySelectorAll('.fade-up').forEach((el) => observer.observe(el));
+})();
+</script>
 
 
 
