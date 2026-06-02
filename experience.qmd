@@ -192,7 +192,7 @@ format:
   </div>
 
   <div class="contact-line">
-    <span><i class="bi bi-envelope"></i> <a href="mailto:thomaskim2457@gmail.com">thomaskim2457@gmail.com</a></span>
+    <span><i class="bi bi-envelope"></i> <a href="mailto:thomaskim7241@gmail.com">thomaskim7241@gmail.com</a></span>
     <span><i class="bi bi-telephone"></i> 952-994-7241</span>
     <span><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/thomas-kim-csom/" target="_blank" rel="noopener">LinkedIn</a></span>
     <span><i class="bi bi-github"></i> <a href="https://github.com/thomaskim7241" target="_blank" rel="noopener">GitHub</a></span>

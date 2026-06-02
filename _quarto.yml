@@ -33,7 +33,7 @@ website:
         aria-label: GitHub
       - icon: envelope
         text: Email
-        href: mailto:thomaskim2457@gmail.com
+        href: mailto:thomaskim7241@gmail.com
         aria-label: Email
   page-footer:
     background: "#0f1f33"
@@ -47,7 +47,7 @@ website:
         href: https://github.com/thomaskim7241
         aria-label: GitHub
       - icon: envelope
-        href: mailto:thomaskim2457@gmail.com
+        href: mailto:thomaskim7241@gmail.com
         aria-label: Email
 
 format:

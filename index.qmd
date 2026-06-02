@@ -92,7 +92,7 @@ format:
     </div>
   </div>
   <div class="contact-line">
-    <span><i class="bi bi-envelope"></i> <a href="mailto:thomaskim2457@gmail.com">thomaskim2457@gmail.com</a></span>
+    <span><i class="bi bi-envelope"></i> <a href="mailto:thomaskim7241@gmail.com">thomaskim7241@gmail.com</a></span>
     <span><i class="bi bi-telephone"></i> 952-994-7241</span>
     <span><i class="bi bi-geo-alt"></i> Minneapolis, MN</span>
   </div>
